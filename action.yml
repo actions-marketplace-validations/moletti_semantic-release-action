@@ -1,0 +1,12 @@
+---
+name: Semantic Release Github Action
+description: GitHub Action for Semantic Release
+author: Leo Moletti
+
+branding:
+  icon: package
+  color: green
+
+runs:
+  using: docker
+  image: docker://moletti/semantic-release:latest
